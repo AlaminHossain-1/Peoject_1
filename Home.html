@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCraft Studios - Exploring New Gaming Worlds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Header Section Styling */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #00bcd4; /* Light Blue */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .hero-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .game-showcase {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .game-item {
+            flex-basis: calc(33% - 20px); /* 3 items per row */
+            min-width: 280px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .game-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .game-item {
+                flex-basis: calc(50% - 20px); /* 2 items per row */
+            }
+        }
+        @media (max-width: 480px) {
+            .game-item {
+                flex-basis: 100%; /* 1 item per row */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GameCraft Studios</h1>
+        <p>Turning Your Imagination into Games</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#games">Our Games</a>
+        <a href="#career">Careers</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="hero" class="hero-image">
+             <img src="Img/Limbo.jpeg" alt="GameCraft Studios Hero Image">
+            <p>A glimpse of our latest game: Limbo</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>**GameCraft Studios** is an innovative game development company established in 2019. We are committed to creating memorable and thrilling gaming experiences for gamers around the world. Our team consists of experienced developers, artists, and storytellers who constantly explore new ideas and push the boundaries of technology.</p>
+            <p>Our goal is to create games that not only entertain but also fuel players' imaginations, immersing them in a unique world.</p>
+        </section>
+
+        <section id="games" class="section">
+            <h2>Our Games</h2>
+            <p>Check out some of our popular titles here:</p>
+            <div class="game-showcase">
+                <div class="game-item">
+                    <img src="Img/Little.jpeg" alt="Mythical Realms Game">
+                    <h3>little nightmares 3</h3>
+                    <p>A vast open-world RPG where you battle mythical creatures and uncover ancient secrets.</p>
+                    <a href="https://example.com/mythical-realms" target="_blank">View Details</a>
+                </div>
+                <div class="game-item">
+                    <img src="Img/Path of Exile.jpeg" alt="Galactic Conqueror Game">
+                    <h3>Path of Exile</h3>
+                    <p>A space strategy game where you build your own galactic empire and conquer the universe.</p>
+                    <a href="https://example.com/galactic-conqueror" target="_blank">View Details</a>
+                </div>
+                <div class="game-item">
+                    <img src="Img/Inside.jpeg" alt="City Builder Tycoon Game">
+                    <h3>Inside</h3>
+                    <p>Build and manage your dream city. Collect resources, construct infrastructure, and keep your citizens happy.</p>
+                    <a href="https://example.com/city-builder-tycoon" target="_blank">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="section">
+            <h2>Careers</h2>
+            <p>At GameCraft Studios, we always welcome talented individuals who are passionate about contributing to the gaming industry. If you want to be part of our team and have a passion for gaming, check out our current openings.</p>
+            <p>Click <a href="https://example.com/careers" target="_blank">here</a> to see our available positions.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>To contact us or share your valuable feedback, please use the information below:</p>
+            <ul>
+                <li>Email: <a href="mailto:info@gamecraftstudios.com">info@gamecraftstudios.com</a></li>
+                <li>Phone: +880-130-3237018</li>
+                <li>Address: GameCraft Tower, Dhaka, Bangladesh</li>
+            </ul>
+            <p>You can also follow us on our social media pages:</p>
+            <a href="https://facebook.com/gamecraftstudios" target="_blank">Facebook</a> |
+            <a href="https://twitter.com/gamecraftstudios" target="_blank">Twitter</a> |
+            <a href="https://instagram.com/gamecraftstudios" target="_blank">Instagram</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 GameCraft Studios. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
